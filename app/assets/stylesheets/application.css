@@ -1,0 +1,33 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+ body {
+    background: #4B644A;
+    background-size: cover;
+  }
+
+ .container {
+   background: rgba(255, 255, 255, 0.7);
+ }
+
+.cant-see-me {
+  display: none;
+}
+
+.new-entry {
+  padding: 10px;
+}
+
+.buttons {
+  padding: 10px;
+}
+
+.row {
+  align-items: center;
+}
+
+.comments {
+  background: white;
+  padding: 10px;
+}
