@@ -2,7 +2,7 @@
   <div class="col-md-12">
     <div class="panel panel-success">
       <div class="panel-heading">
-        <%= link_to blog_post.title, blog_post %>
+        <h4><%= link_to blog_post.title, blog_post %></h4>
       </div>
       <div class="panel-body">
         <p><span class="posted-at"><%= blog_post.created_at.strftime('%m/%d/%Y at %l:%M%p') %></span></p>
